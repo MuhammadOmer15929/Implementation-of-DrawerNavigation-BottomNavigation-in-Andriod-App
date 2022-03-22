@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="27dp"
+            android:fontFamily="@font/amir"
+            android:text="الحديث"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="27dp"
+            android:fontFamily="@font/amir"
+            android:text="1. نماز کی فرضیت کے بارے میں"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="27dp"
+            android:gravity="center"
+            android:fontFamily="@font/amir"
+            android:text="´انس بن مالک رضی اللہ عنہ کہتے ہیں کہ` رسول اللہ صلی اللہ علیہ وسلم نے فرمایا: ”اللہ تعالیٰ نے (معراج کی رات) میری امت پر پچاس نمازیں فرض کیں، تو میں انہیں لے کر لوٹا یہاں تک کہ موسیٰ علیہ السلام کے پاس آیا، تو انہوں نے پوچھا: آپ کے رب نے آپ کی امت پر کیا فرض کیا ہے؟ میں نے کہا: پچاس نمازیں میرے اوپر فرض کی ہیں، انہوں نے کہا: اپنے رب کے پاس پھر جائیں آپ کی امت انہیں ادا نہ کر سکے گی، میں اپنے رب کے پاس لوٹا، تو اس نے آدھی معاف کریں، میں موسیٰ علیہ السلام کے پاس واپس آیا، اور ان سے بیان کیا، انہوں نے کہا: اپنے رب کے پاس واپس جائیں آپ کی امت اس کو انجام نہ دے سکے گی، چنانچہ میں پھر اپنے رب کے پاس واپس گیا، تو اس نے فرمایا: یہ (ادا کرنے میں) پانچ وقت کی نمازیں (شمار میں) ہیں، جو (ثواب میں) پچاس نماز کے برابر ہیں، میرا فرمان تبدیل نہیں ہوتا، اٹل ہوتا ہے، میں موسیٰ علیہ السلام کے پاس آیا، تو انہوں نے کہا: اپنے رب کے پاس جائیں، تو میں نے کہا: اب مجھے اپنے رب سے شرم آتی ہے“ ۱؎۔"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</ScrollView>
